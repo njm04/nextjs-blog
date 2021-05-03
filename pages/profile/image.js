@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Image = () => {
+const ProfileImage = () => {
   return (
     <Image
       src="/images/profile.jpg" // Route of the image file
@@ -11,4 +11,4 @@ const Image = () => {
   );
 };
 
-export default Image;
+export default ProfileImage;
